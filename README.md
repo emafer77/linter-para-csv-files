@@ -1,2 +1,12 @@
 # Linter-para-CSV-files
 algoritmo para trabajar un archivo externo desde javascript
+el repositorio cuenta con archivo dataBase.txt , dentro de este archivo  en la primera linea o fila se encuentra los datos de que se solicitan por ejemplo nick,matricula,facultad etc. cada uno de ellos separados por una "," 
+apartir de la segunda linea se llenan los datos  por ejemplo para nick de la primera fila , se le agrega pako en la segunda linea y asi sucesivamente .
+
+tambien tenemos otro archivo llamado "my-sql.js" este archivo contiene el algoritmo con el cual se puede interactuar con el archivo "dataBase.tx" y llevar  a cabo diferentes funciones.
+el algoritmo es capas de leer la primera linea de "dataBase.txt" y convertirla en un array y ademas mostrarla en consola.
+tambien es capaz de leer las lineas siguientes y convertirlas en en arrays 
+el algoritmo es capaz de validar  que el numero de elemntos el array de la primera fila , se igual al que contienen las filas posteriores y ademas no se encuentren vacias.
+ ademas de validar si cada elemento es llenado de la forma correcta por ejemplo en el primer elemento de query de contener caracteres  si no se muestra en consolola un error.
+
+por ultimo el algorimo es capaz de guardar los errores en una variable logData  en caso de haber errores.posteriormente se crea un archivo log.txt en el cual se ecribira la fila que contiene un error
