@@ -1,0 +1,5 @@
+nick,matricula,facultad,carrera,promedio,edad,correo
+pako,306403,ingenieria,computacion,87,42,pako1234@ite.edu.mx
+emanuel,18760630,ingenieria,computacion,90,23,al18760630@ite.edu.mx
+juan,1876060,cienciaSalud,medicina,80,24,juan@uabc.edu.mx
+em7a,1577,cienciaSalud,enfermeria,99,21,elma@uabc.edu.mx
