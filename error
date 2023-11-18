@@ -1,0 +1,9 @@
+Error la consulta es incorrecta ya que no debe un 'SELECT' o una ',' antes del FROM 
+4
+/home/jose/Documentos/lexico-example/lector.js:42
+        const separarArrego= query[1].split(/(,)/);//con esto se agrega la "," tambien
+                                      ^
+
+TypeError: Cannot read property 'split' of undefined
+    at /home/jose/Documentos/lexico-example/lector.js:42:39
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
